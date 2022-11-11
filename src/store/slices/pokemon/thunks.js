@@ -15,5 +15,5 @@ export const getPokemons = (page = 0) => async ( dispatch, getState ) => {
 
 
     //dispatch( setPokemons({ pokemons: results, page: page + 1})) FETCH
-    dispatch( setPokemons({ pokemons: data.results, page: page + 1 })) 
+    dispatch( setPokemons({ pokemons: data.results, page: page + 1})) 
 }
